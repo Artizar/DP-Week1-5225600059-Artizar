@@ -31,6 +31,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../FixedInputGenerator.h" />
+		<Unit filename="../IInputGenerator.h" />
+		<Unit filename="../IRewardRule.h" />
+		<Unit filename="../IScoringRule.h" />
+		<Unit filename="../Main.cpp" />
+		<Unit filename="../ModifiedRewardRule.h" />
+		<Unit filename="../RandomInputGenerator.cpp" />
+		<Unit filename="../RandomInputGenerator.h" />
+		<Unit filename="../RunSession.cpp" />
+		<Unit filename="../RunSession.h" />
+		<Unit filename="../ShopSystem.h" />
+		<Unit filename="../SimpleScoringRule.h" />
+		<Unit filename="../TurnInput.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

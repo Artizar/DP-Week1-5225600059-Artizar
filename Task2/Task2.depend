@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1791405682 source:c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\randomrivalstrategy.cpp
+	"RandomRivalStrategy.h"
+	<cstdlib>
+	<ctime>
+
+1791405654 c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\randomrivalstrategy.h
+	"IRivalStrategy.h"
+
+1791405857 c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\irivalstrategy.h
+	"GameEnums.h"
+
+1791403503 c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\gameenums.h
+
+1791405733 source:c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\standardrpsrules.cpp
+	"StandardRPSRules.h"
+
+1791405710 c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\standardrpsrules.h
+	"IEvaluationRule.h"
+
+1791405590 c:\users\artizar\documents\github\dp-week2-5225600059-artizar\task2\ievaluationrule.h
+	"GameEnums.h"
+

@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1790222969 source:c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\main.cpp
+	"RandomInputGenerator.h"
+	"SimpleScoringRule.h"
+	"ModifiedRewardRule.h"
+	"RunSession.h"
+
+1790220394 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\randominputgenerator.h
+	"IInputGenerator.h"
+
+1790220434 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\iinputgenerator.h
+	"TurnInput.h"
+
+1790220455 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\turninput.h
+
+1790220317 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\simplescoringrule.h
+	"IScoringRule.h"
+
+1790220345 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\iscoringrule.h
+	"TurnInput.h"
+
+1790220262 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\modifiedrewardrule.h
+	"IRewardRule.h"
+
+1790220290 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\irewardrule.h
+
+1790220139 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\runsession.h
+	"IInputGenerator.h"
+	"IScoringRule.h"
+	"IRewardRule.h"
+	"ShopSystem.h"
+
+1790220178 c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\shopsystem.h
+	<iostream>
+
+1790220371 source:c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\randominputgenerator.cpp
+	"RandomInputGenerator.h"
+	<cstdlib>
+	<ctime>
+
+1790220091 source:c:\users\artizar\documents\github\dp-week1-5225600059-artizar\task 1\runsession.cpp
+	"RunSession.h"
+	<iostream>
+
