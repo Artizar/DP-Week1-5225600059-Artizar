@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1791873694 source:c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\gamemanager.cpp
+	"GameManager.h"
+	<iostream>
+	"RoyalFlushChecker.h"
+	"StraightFlushChecker.h"
+	"FlushHouseChecker.h"
+	"FiveOfAKindChecker.h"
+	"FourOfAKindChecker.h"
+	"FullHouseChecker.h"
+	"FlushChecker.h"
+	"StraightChecker.h"
+	"ThreeOfAKindChecker.h"
+	"TwoPairChecker.h"
+	"PairChecker.h"
+	"HighCardChecker.h"
+
+1791869406 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\gamemanager.h
+	"HandGenerator.h"
+	"HandPlayer.h"
+	"ScoringRule.h"
+	"BlindRule.h"
+	"RewardRule.h"
+	"FlushChecker.h"
+	"StraightChecker.h"
+
+1791873806 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\handgenerator.h
+	"Hand.h"
+
+1791873372 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\hand.h
+	<vector>
+
+1791871486 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\handplayer.h
+	"Hand.h"
+
+1791874134 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\scoringrule.h
+	"Hand.h"
+
+1791871688 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\blindrule.h
+
+1791871603 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\rewardrule.h
+
+1791873116 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\flushchecker.h
+	"PokerHandChecker.h"
+
+1791873648 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\pokerhandchecker.h
+	"Hand.h"
+	<vector>
+	<map>
+	<algorithm>
+
+1791873082 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\straightchecker.h
+	"PokerHandChecker.h"
+
+1791869276 source:c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\main.cpp
+	"GameManager.h"
+
+1791872321 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\royalflushchecker.h
+	"PokerHandChecker.h"
+
+1791872351 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\straightflushchecker.h
+	"PokerHandChecker.h"
+
+1791872685 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\flushhousechecker.h
+	"PokerHandChecker.h"
+
+1791872579 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\fiveofakindchecker.h
+	"PokerHandChecker.h"
+
+1791872611 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\fourofakindchecker.h
+	"PokerHandChecker.h"
+
+1791872633 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\fullhousechecker.h
+	"PokerHandChecker.h"
+
+1791873143 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\threeofakindchecker.h
+	"PokerHandChecker.h"
+
+1791873166 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\twopairchecker.h
+	"PokerHandChecker.h"
+
+1791873192 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\pairchecker.h
+	"PokerHandChecker.h"
+
+1791873215 c:\users\artizar\documents\visual studio 2022\task5\taskfiveproject\highcardchecker.h
+	"PokerHandChecker.h"
+
