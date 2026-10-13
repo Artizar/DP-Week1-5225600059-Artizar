@@ -50,7 +50,40 @@ void GameManager::runSession() {
     pair.setNext(&highCard);
 
     HandRank rank = royalFlush.check(myHand);
-    cout << "[CHECK] Hand Rank detected type ID: " << rank << "\n";
+    string rankType;
+    switch (rank) {
+        case 9:
+            rankType = "Royal Flush";
+            break;
+        case 8:
+            rankType = "Straight Flush";
+            break;
+        case 7:
+            rankType = "Four of a Kind";
+            break;
+        case 6:
+            rankType = "Full House";
+            break;
+        case 5:
+            rankType = "Flush";
+            break;
+        case 4:
+            rankType = "Straight";
+            break;
+        case 3:
+            rankType = "Three of a Kind";
+            break;
+        case 2:
+            rankType = "Two Pair";
+            break;
+        case 1:
+            rankType = "Pair";
+            break;
+        case 0:
+            rankType = "High Card";
+            break;
+    }
+    cout << "[CHECK] Hand Rank detected type ID: " << rankType << "\n";
 
     // 3. Compute Base Score
     int score = scoringRule.convertRankToScore(rank);
@@ -69,4 +102,41 @@ void GameManager::runSession() {
     cout << "[REWARD] Earned money: $" << moneyEarned << "\n";
 
     cout << "=== BALATRO RUN END ===\n";
+}
+
+string y(HandRank rank) {
+    string rankType;
+    switch (rank) {
+        case 9:
+            rankType = "Royal Flush";
+            break;
+        case 8:
+            rankType = "Straight Flush";
+            break;
+        case 7:
+            rankType = "Four of a Kind";
+            break;
+        case 6:
+            rankType = "Full House";
+            break;
+        case 5:
+            rankType = "Flush";
+            break;
+        case 4:
+            rankType = "Straight";
+            break;
+        case 3:
+            rankType = "Three of a Kind";
+            break;
+        case 2:
+            rankType = "Two Pair";
+            break;
+        case 1:
+            rankType = "Pair";
+            break;
+        case 0:
+            rankType = "High Card";
+            break;
+    }
+    return rankType;
 }
